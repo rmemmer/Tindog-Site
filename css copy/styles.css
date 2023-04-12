@@ -1,0 +1,208 @@
+/* HTML components */
+body {
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+}
+
+
+h1, h2, h3, h4, h5, h6 {  
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 900;
+}
+
+p {
+    color: #8f8f8f;
+    margin: 0 20px;
+    padding: 2% 0;
+}
+
+/* Headings */
+.big-heading {
+    font-size: 4rem;  
+    line-height: 1.5;  
+    color: white;
+}
+
+.section-heading {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+/* Sections */
+
+.colored-section {
+    background-color: #ff4c68;
+    color:white;
+}
+
+.white-section {
+    background-color: white;
+}
+
+/* Title/Header Section */
+
+#title {
+    text-align: left;
+}
+
+#title .container-fluid {
+    padding-top:3%;
+}
+
+#iphone-mockup {
+    transform: rotate(30deg);
+    height:700px;
+    width: auto;
+    position:absolute;
+    right:20%;
+}
+
+@media (max-width: 991px) {
+    #iphone-mockup {
+        transform: rotate(0);
+        position:static;
+    }
+
+    #title {
+        text-align: center;
+    }
+}
+
+.navbar-brand {
+    font-size: 2.5rem;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+.nav-item {
+    font-size: large;
+    padding: 0 5%;
+}
+
+.nav-link {
+    font-size: 1.5rem;
+}
+
+.pad {
+    margin-right: 15px;
+}
+
+.container-fluid {
+    padding: 7% 15%;
+}
+
+.container .col-lg-6 {
+    padding: 0;
+    margin: 50px auto;
+}
+
+/* Features Section */
+
+#features {
+    position: relative;
+    z-index:1;
+}
+
+.feature-title {
+    font-size: 1.5rem;
+}
+
+.feature-icon {
+    padding: 20px;
+    color: #ef8172;
+    margin-bottom: 0.5rem;
+}
+
+.feature-icon:hover {
+    color: #ff4c68;
+}
+
+
+
+/* Testimonials Section */
+
+#testimonials {
+
+    font-family: 'Montserrat', sans-serif;
+    font-weight:700;
+    line-height: 1.5;
+}
+
+.testimonial-image {
+    width: 15%;
+    border-radius: 100%;
+    padding:20px;
+}
+
+.testimonial-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+
+/* Press Section */
+#press {
+    padding-bottom: 30px;
+}
+
+.press-image {
+    width: 15%;
+    margin: 10px 35px 50px;
+}
+
+
+.carousel-item {
+    height: 500px;
+}
+
+/* Pricing Section */
+
+#pricing {
+    padding:100px;
+}
+
+.pricing-col {
+    padding: 3% 2%;
+}
+
+.card-body {
+    padding: 2%;
+}
+
+.tier-title {
+    font-size: 1.5rem;
+}
+
+.price-text {
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+.pricing-btn {
+    padding: 3%;
+}
+
+/* Call to Action Section */
+
+.cta-header {
+    color:white;
+    font-size: 4rem;
+    margin-bottom:50px;
+    line-height: 1.5;
+}
+
+.btn-cta {
+    margin:0px 15px;
+    padding:10px 20px;
+}
+
+
+/* Footer Section */
+
+#footer {
+    font-size: 1.5rem;
+}
+
+.socials {
+    padding: 0 13px;
+    font-size: 1.5rem;
+}
